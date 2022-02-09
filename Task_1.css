@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+   
+}
+
+.container {
+    width: 30%;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #cbced1,
+    -2px -2px 2px #ffffff;
+    background-color:black;
+
+
+}
+
+.display #screen {
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 4px 4px 4px #7a7676,
+    inset -4px -4px 4px #bebaba;
+
+}
+
+.btns {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button {
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px #ffb066,
+    -2px -2px 1px #ffb066;
+    cursor: pointer;
+
+}
+
+.btns .row button:hover {
+    box-shadow: inset 2px 2px 1px #ffb066,
+    inset -2px -2px 1px #ffb066;
+    background: #ffb066;
+}
+
+#equal {
+    background: rgba(233, 120, 15, 0.938);
+    color: black;
+    box-shadow: inset 1px 1px 0.5px #ffb066,
+                inset-1px -1px 0.5px #e68a00;
+}
+
+#equal1 {
+    background: rgb(255, 102, 0);
+    color: black;
+    box-shadow: inset 1px 1px 0.5px #ffb066,
+                inset-1px -1px 0.5px #e68a00;
+}
+
+#equal2 {
+    background: rgb(255, 102, 0);
+    color: black;
+    box-shadow: inset 1px 1px 0.5px #ffb066,
+                inset-1px -1px 0.5px #e68a00;
+}
+
